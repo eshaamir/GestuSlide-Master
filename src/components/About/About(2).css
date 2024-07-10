@@ -1,0 +1,37 @@
+.about-content {
+  row-gap: 40px;
+}
+
+.section-t {
+  font-size: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-content {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about-content {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 60px;
+  }
+}
+/* Contact.css */
+
+@keyframes fadeinback {
+  0% {
+    opacity: 0;
+    transform: translateZ(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+.fadeinback-image {
+  animation: fadeinback 1s ease-in-out infinite alternate; /* Adjust timing and animation style as needed */
+}

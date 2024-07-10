@@ -1,0 +1,62 @@
+.header {
+    background-color: var(--clr-purplecard);
+    position: relative;
+    min-height: 50vh;
+    margin-bottom: 20px; /* Adjust the distance between header and navbar */
+    margin-top: 150px;
+    padding-right: 30%;
+}
+
+.header-text {
+    width: 200%; /* Adjust as needed */
+    margin-left: 120px;
+    
+}
+
+.header-title {
+    font-style: normal;
+    font-weight: 650;
+    line-height: 1.2;
+    color: white;
+}
+
+.text-lead {
+    color: white;
+    padding-top: 25px;
+}
+.lottie-container {
+    flex: 5;
+    justify-content:right; /* Position the animation to the right side */
+  }
+  
+
+@media screen and (min-width: 600px) {
+    .header-title {
+        font-size: 56px;
+    }
+    .header-content * {
+        max-width: 920px;
+    }
+    
+}
+
+
+.header {
+    position: relative;
+  }
+  
+  .header-content,
+  .lottie-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .header-content {
+    left: 0;
+  }
+  
+  .lottie-container {
+    padding-right: 120%;
+  }
+  
